@@ -16,7 +16,7 @@ int main(void)
 		status = isatty(0);
 
 		if (status == 1)
-			write(1, "♥♥ WE LOVE SIPHAN ♥♥ ", 29);
+			printf("♥♥ WE LOVE SIPHAN ♥♥ ");
 
 		line = func_read();
 		if (line == NULL || (_strcmp(line, "exit") == 0))
