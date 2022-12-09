@@ -68,6 +68,7 @@ This function has no return value.
 ```man ./man_1_simple_shell```
 
 ## EXAMPLES
+Interactive mode
 ```
 ♥♥ WE LOVE SIPHAN ♥♥ ls -l
 total 80
@@ -93,6 +94,13 @@ AUTHORS  README.md  execve.c  freegrid.c  getenv.c  getpath.c  hack  hsh  main_s
 
 ♥♥ WE LOVE SIPHAN ♥♥ pwd
 /home/simon/Documents/Holberton_School/simple-shell-test
+```
+Non-interactive mode
+```
+$ echo "/bin/ls" | ./hsh
+AUTHORS    execve.c    getenv.c   hack	main_shell.c	    printenv.c	shell.h  splitenv.c  trim.c
+README.md  freegrid.c  getpath.c  hsh	man_1_simple_shell  readcmd.c	split.c  struse.c
+
 ```
 
 ## MEMORY CHECK
